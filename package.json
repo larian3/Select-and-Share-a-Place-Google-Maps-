@@ -11,6 +11,7 @@
     "typescript",
     "course"
   ],
+  
   "author": "Lariane Lima",
   "license": "ISC",
   "devDependencies": {

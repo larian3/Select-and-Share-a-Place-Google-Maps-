@@ -16,6 +16,7 @@ function searchAddressHandler(event: Event) {
   event.preventDefault();
   const enteredAddress = addressInput.value;
 
+  
   axios
     .get<GoogleGeocodingResponse>(
       `https://maps.googleapis.com/maps/api/geocode/json?address=${encodeURI(
